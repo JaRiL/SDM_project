@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DALC.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:DALC.Fakes.ShimClass">
+            <summary>Shim type of DALC.Class</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimClass.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimClass.#ctor(DALC.Class)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimClass.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimClass.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.ClassIDGet">
+            <summary>Sets the shim of Class.get_ClassID()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.ClassIDSetInt32">
+            <summary>Sets the shim of Class.set_ClassID(Int32 value)</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.ClassNameGet">
+            <summary>Sets the shim of Class.get_ClassName()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.ClassNameSetString">
+            <summary>Sets the shim of Class.set_ClassName(String value)</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.Constructor">
+            <summary>Sets the shim of Class.Class()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.RoomIDGet">
+            <summary>Sets the shim of Class.get_RoomID()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.RoomIDSetNullableOfInt32">
+            <summary>Sets the shim of Class.set_RoomID(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="T:DALC.Fakes.ShimClass.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.AllInstances.ClassIDGet">
+            <summary>Sets the shim of Class.get_ClassID()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.AllInstances.ClassIDSetInt32">
+            <summary>Sets the shim of Class.set_ClassID(Int32 value)</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.AllInstances.ClassNameGet">
+            <summary>Sets the shim of Class.get_ClassName()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.AllInstances.ClassNameSetString">
+            <summary>Sets the shim of Class.set_ClassName(String value)</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.AllInstances.RoomIDGet">
+            <summary>Sets the shim of Class.get_RoomID()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimClass.AllInstances.RoomIDSetNullableOfInt32">
+            <summary>Sets the shim of Class.set_RoomID(Nullable`1&lt;Int32&gt; value)</summary>
+        </member>
+        <member name="T:DALC.Fakes.ShimExamPlanningSystemSDMEntities">
+            <summary>Shim type of DALC.ExamPlanningSystemSDMEntities</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimExamPlanningSystemSDMEntities.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimExamPlanningSystemSDMEntities.#ctor(DALC.ExamPlanningSystemSDMEntities)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimExamPlanningSystemSDMEntities.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimExamPlanningSystemSDMEntities.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimExamPlanningSystemSDMEntities.Bind(System.Data.Entity.Infrastructure.IObjectContextAdapter)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:DALC.Fakes.ShimExamPlanningSystemSDMEntities.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.ClassGet">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.get_Class()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.ClassSetDbSetOfClass">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.set_Class(DbSet`1&lt;Class&gt; value)</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.Constructor">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.ExamPlanningSystemSDMEntities()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="T:DALC.Fakes.ShimExamPlanningSystemSDMEntities.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.AllInstances.ClassGet">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.get_Class()</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.AllInstances.ClassSetDbSetOfClass">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.set_Class(DbSet`1&lt;Class&gt; value)</summary>
+        </member>
+        <member name="P:DALC.Fakes.ShimExamPlanningSystemSDMEntities.AllInstances.OnModelCreatingDbModelBuilder">
+            <summary>Sets the shim of ExamPlanningSystemSDMEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="T:DALC.Fakes.StubClass">
+            <summary>Stub type of DALC.Class</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubClass.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubClass.InitializeStub">
+            <summary>Initializes a new instance of type StubClass</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubClass.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubClass.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubClass.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:DALC.Fakes.StubExamPlanningSystemSDMEntities">
+            <summary>Stub type of DALC.ExamPlanningSystemSDMEntities</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.AttachBackingFieldToClass">
+            <summary>Attaches delegates to emulate StubExamPlanningSystemSDMEntities.Class as a property with a backing field.</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.ClassGet">
+            <summary>Sets the stub of ExamPlanningSystemSDMEntities.get_Class()</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.ClassSetDbSetOfClass">
+            <summary>Sets the stub of ExamPlanningSystemSDMEntities.set_Class(DbSet`1&lt;Class&gt; value)</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.Dispose(System.Boolean)">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.DisposeBoolean">
+            <summary>Sets the stub of DbContext.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.Equals(System.Object)">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.EqualsObject">
+            <summary>Sets the stub of DbContext.Equals(Object obj)</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.GetHashCode">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.GetHashCode01">
+            <summary>Sets the stub of DbContext.GetHashCode()</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.InitializeStub">
+            <summary>Initializes a new instance of type StubExamPlanningSystemSDMEntities</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.OnModelCreating(System.Data.Entity.DbModelBuilder)">
+            <summary>Sets the stub of ExamPlanningSystemSDMEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.OnModelCreatingDbModelBuilder">
+            <summary>Sets the stub of ExamPlanningSystemSDMEntities.OnModelCreating(DbModelBuilder modelBuilder)</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.SaveChanges">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.SaveChanges01">
+            <summary>Sets the stub of DbContext.SaveChanges()</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.SaveChangesAsync">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.SaveChangesAsync01">
+            <summary>Sets the stub of DbContext.SaveChangesAsync()</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.SaveChangesAsyncCancellationToken">
+            <summary>Sets the stub of DbContext.SaveChangesAsync(CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.ShouldValidateEntityDbEntityEntry">
+            <summary>Sets the stub of DbContext.ShouldValidateEntity(DbEntityEntry entityEntry)</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.ToString">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.ToString01">
+            <summary>Sets the stub of DbContext.ToString()</summary>
+        </member>
+        <member name="M:DALC.Fakes.StubExamPlanningSystemSDMEntities.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry,System.Collections.Generic.IDictionary{System.Object,System.Object})">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="F:DALC.Fakes.StubExamPlanningSystemSDMEntities.ValidateEntityDbEntityEntryIDictionaryOfObjectObject">
+            <summary>Sets the stub of DbContext.ValidateEntity(DbEntityEntry entityEntry, IDictionary`2&lt;Object,Object&gt; items)</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubExamPlanningSystemSDMEntities.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubExamPlanningSystemSDMEntities.Class">
+            <summary>Sets the stub of ExamPlanningSystemSDMEntities.get_Class()</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubExamPlanningSystemSDMEntities.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:DALC.Fakes.StubExamPlanningSystemSDMEntities.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

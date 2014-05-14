@@ -1,0 +1,15 @@
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\DALC.Fakes.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\DALC.Fakes.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\DALC.Fakes.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\BE.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\BLL.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\DALC.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\DALC.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\BE.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\BLL.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\o\f.csprojResolveAssemblyReference.cache
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\o\DALC.Fakes.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\o\DALC.Fakes.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\EntityFramework.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\obj\Debug\Fakes\dalc\b\EntityFramework.xml

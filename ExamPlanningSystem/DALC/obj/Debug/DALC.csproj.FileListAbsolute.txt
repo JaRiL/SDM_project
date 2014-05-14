@@ -1,0 +1,10 @@
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\DALC.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\DALC.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\obj\Debug\DALC.csprojResolveAssemblyReference.cache
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\obj\Debug\DALC.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\obj\Debug\DALC.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\DALC.dll.config
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.SqlServer.xml
