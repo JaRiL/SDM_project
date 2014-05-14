@@ -1,0 +1,1 @@
+c:\users\jari\documents\visual studio 2012\Projects\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\ExamPlanningSystem.exe.config
