@@ -1,2 +1,10 @@
 c:\users\jari\documents\visual studio 2012\Projects\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\ExamPlanningSystem.exe.config
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\ExamPlanningSystem.exe.config
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\ExamPlanningSystem.exe
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\ExamPlanningSystem.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.csprojResolveAssemblyReference.cache
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.Form1.resources
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.Properties.Resources.resources
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.csproj.GenerateResource.Cache
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.exe
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.pdb
