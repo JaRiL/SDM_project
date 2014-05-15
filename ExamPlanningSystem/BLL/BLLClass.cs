@@ -23,8 +23,8 @@ namespace BLL
         public void addClass(Class _class)
         {
             entities.Class.Add(_class);
-            if (_realDBAccess)
-                SaveChangesToDB();
+            //if (_realDBAccess)
+            //    SaveChangesToDB();
         }
 
         public Class getClass(int classID)
@@ -32,9 +32,9 @@ namespace BLL
             return entities.Class.Single(c => c.ClassID == classID);
         }
 
-        private void SaveChangesToDB()
-        {
-            entities.SaveChanges();
-        }
+        //private void SaveChangesToDB()
+        //{
+        //    entities.SaveChanges();
+        //}
     }
 }
