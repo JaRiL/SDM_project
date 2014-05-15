@@ -1,27 +1,34 @@
 ﻿using System;
-using BLL.Fakes;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Rhino.Mocks;
+using BLL;
 
 namespace UnitTestProject
 {
     [TestClass]
     public class UnitTestClass
     {
+        private BLLClass mockBLLClass;
+        private Class mockClass;
+
+        [TestInitialize]
+        public void Initialize()
+        {
+            mockBLLClass = MockRepository.GenerateMock<BLLClass>(new BLLClass(false));
+            mockClass = MockRepository.GenerateMock<Class>();
+        }
+
+        [TestCleanup]
+        public void TearDown()
+        {
+            mockBLLClass = null;
+            mockClass = null;
+        }
+
         [TestMethod]
         public void addBookingOfClassTest()
         {
-            StubBLLClass m_bllClassMock = new StubBLLClass();
-            
-             //m_beClassMock = new StubBEClass();
 
-
-            //m_beClassMock.("CS2011");
-            //m_class.setClassRoomID(1);
-
-            //m_bllClass.addNewClass(m_class);
-
-            //Assert.AreEqual("CS2011", m_class.getClassName());
-            //Assert.AreEqual(1, m_class.getClassRoomID());
         }
     }
 }
