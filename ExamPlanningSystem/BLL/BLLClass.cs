@@ -10,11 +10,13 @@ namespace BLL
     public class BLLClass
     {
         private ExamPlanningSystemSDMEntities entities;
+        private IClassContext fakeContext;
         private bool _realDBAccess;
 
         public BLLClass(bool realDBAccess)
         {
             entities = new ExamPlanningSystemSDMEntities();
+            fakeContext = new FakeClassContext();
             _realDBAccess = realDBAccess;
         }
 

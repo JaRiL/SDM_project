@@ -14,3 +14,6 @@ C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\bin\Debug\Rhino.Mocks.dll
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\bin\Debug\BE.pdb
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\bin\Debug\Rhino.Mocks.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\bin\Debug\UnitTestProject.dll.config
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\UnitTestProject\bin\Debug\EntityFramework.SqlServer.xml

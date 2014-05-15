@@ -15,8 +15,9 @@ namespace UnitTestProject
         [TestInitialize]
         public void Initialize()
         {
-            mockBLLClass = MockRepository.GenerateMock<BLLClass>(new BLLClass(false));
+            mockBLLClass = MockRepository.GenerateMock<BLLClass>(true);
             mockClass = MockRepository.GenerateMock<Class>();
+
         }
 
         [TestCleanup]
@@ -29,7 +30,13 @@ namespace UnitTestProject
         [TestMethod]
         public void addBookingOfClassTest()
         {
+            mockClass.ClassName = "CS2011";
+            mockClass.ClassID = 1;
 
+            mockBLLClass.addClass(mockClass);
+
+            Assert.AreEqual(1, mockBLLClass.getClass(mockClass.ClassID));
+            Assert.AreEqual("CS2011", mockBLLClass.getClass(mockClass.ClassID));
         }
     }
 }
