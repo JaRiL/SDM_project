@@ -4,29 +4,47 @@
         <name>BLL.Fakes</name>
     </assembly>
     <members>
-        <member name="T:BLL.Fakes.ShimBEClass">
-            <summary>Shim type of BLL.BEClass</summary>
+        <member name="T:BE.Fakes.ShimClass">
+            <summary>Shim type of BE.Class</summary>
         </member>
-        <member name="M:BLL.Fakes.ShimBEClass.#ctor">
+        <member name="M:BE.Fakes.ShimClass.#ctor">
             <summary>Initializes a new shim instance</summary>
         </member>
-        <member name="M:BLL.Fakes.ShimBEClass.#ctor(BLL.BEClass)">
+        <member name="M:BE.Fakes.ShimClass.#ctor(BE.Class)">
             <summary>Initializes a new shim for the given instance</summary>
         </member>
-        <member name="M:BLL.Fakes.ShimBEClass.BehaveAsCurrent">
+        <member name="M:BE.Fakes.ShimClass.BehaveAsCurrent">
             <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
         </member>
-        <member name="M:BLL.Fakes.ShimBEClass.BehaveAsNotImplemented">
+        <member name="M:BE.Fakes.ShimClass.BehaveAsNotImplemented">
             <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
         </member>
-        <member name="P:BLL.Fakes.ShimBEClass.Behavior">
+        <member name="P:BE.Fakes.ShimClass.Behavior">
             <summary>Assigns the behavior for all methods of the shimmed type</summary>
         </member>
-        <member name="P:BLL.Fakes.ShimBEClass.Constructor">
-            <summary>Sets the shim of BEClass.BEClass()</summary>
+        <member name="P:BE.Fakes.ShimClass.Constructor">
+            <summary>Sets the shim of Class.Class()</summary>
         </member>
-        <member name="T:BLL.Fakes.ShimBEClass.AllInstances">
+        <member name="T:BE.Fakes.ShimClass.AllInstances">
             <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:BE.Fakes.StubClass">
+            <summary>Stub type of BE.Class</summary>
+        </member>
+        <member name="M:BE.Fakes.StubClass.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:BE.Fakes.StubClass.InitializeStub">
+            <summary>Initializes a new instance of type StubClass</summary>
+        </member>
+        <member name="P:BE.Fakes.StubClass.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:BE.Fakes.StubClass.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:BE.Fakes.StubClass.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
         </member>
         <member name="T:BLL.Fakes.ShimBLLClass">
             <summary>Shim type of BLL.BLLClass</summary>
@@ -49,8 +67,8 @@
         <member name="P:BLL.Fakes.ShimBLLClass.Constructor">
             <summary>Sets the shim of BLLClass.BLLClass()</summary>
         </member>
-        <member name="P:BLL.Fakes.ShimBLLClass.addClassBEClass">
-            <summary>Sets the shim of BLLClass.addClass(BEClass _class)</summary>
+        <member name="P:BLL.Fakes.ShimBLLClass.addClassClass">
+            <summary>Sets the shim of BLLClass.addClass(Class _class)</summary>
         </member>
         <member name="P:BLL.Fakes.ShimBLLClass.getClassInt32">
             <summary>Sets the shim of BLLClass.getClass(Int32 classID)</summary>
@@ -58,29 +76,11 @@
         <member name="T:BLL.Fakes.ShimBLLClass.AllInstances">
             <summary>Define shims for all instances members</summary>
         </member>
-        <member name="P:BLL.Fakes.ShimBLLClass.AllInstances.addClassBEClass">
-            <summary>Sets the shim of BLLClass.addClass(BEClass _class)</summary>
+        <member name="P:BLL.Fakes.ShimBLLClass.AllInstances.addClassClass">
+            <summary>Sets the shim of BLLClass.addClass(Class _class)</summary>
         </member>
         <member name="P:BLL.Fakes.ShimBLLClass.AllInstances.getClassInt32">
             <summary>Sets the shim of BLLClass.getClass(Int32 classID)</summary>
-        </member>
-        <member name="T:BLL.Fakes.StubBEClass">
-            <summary>Stub type of BLL.BEClass</summary>
-        </member>
-        <member name="M:BLL.Fakes.StubBEClass.#ctor">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="M:BLL.Fakes.StubBEClass.InitializeStub">
-            <summary>Initializes a new instance of type StubBEClass</summary>
-        </member>
-        <member name="P:BLL.Fakes.StubBEClass.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="P:BLL.Fakes.StubBEClass.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
-        </member>
-        <member name="P:BLL.Fakes.StubBEClass.InstanceObserver">
-            <summary>Gets or sets the instance observer.</summary>
         </member>
         <member name="T:BLL.Fakes.StubBLLClass">
             <summary>Stub type of BLL.BLLClass</summary>

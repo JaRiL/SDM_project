@@ -11,8 +11,8 @@ namespace UnitTestProject
         public void addBookingOfClassTest()
         {
             StubBLLClass m_bllClassMock = new StubBLLClass();
-
-            //StubBEClass m_beClassMock = new StubBEClass();
+            
+             //m_beClassMock = new StubBEClass();
 
 
             //m_beClassMock.("CS2011");

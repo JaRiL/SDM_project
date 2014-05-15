@@ -15,14 +15,24 @@ namespace BLL
             entities = new ExamPlanningSystemSDMEntities();
         }
 
-        public void addClass(BEClass _class)
+        public void addClass(Class _class)
         {
             entities.Class.Add(_class);
         }
 
-        public BEClass getClass(int classID)
+        public Class getClass(int classID)
         {
-            return entities.Class.Single(c => c.ClassID == classID);
+            return ConvertDALCtoBLL(entities.Class.Single(c => c.ClassID == classID));
+        }
+
+        private BLL.Class ConvertDALCtoBLL(DALC.Class oldClass) 
+        {
+            return new BLL.Class
+            {
+                ClassID = oldClass.ClassID,
+                ClassName = oldClass.ClassName,
+                RoomID = oldClass.RoomID
+            };
         }
     }
 }
