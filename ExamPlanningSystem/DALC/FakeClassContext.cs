@@ -15,21 +15,16 @@ namespace DALC
             this.Class = new FakeClassContextSet();
         }
 
-        public int SaveChanges()
-        {
-            return 0;
-        }
-
         public IDbSet<Class> Class
         {
             get;
             private set;
         }
-
-        int IClassContext.SaveChanges()
+        public int SaveChanges()
         {
-            throw new NotImplementedException();
+            return 0;
         }
+
     }
 
     public class FakeClassContextSet : FakeDbSet<Class>

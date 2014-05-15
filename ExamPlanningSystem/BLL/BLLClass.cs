@@ -13,7 +13,7 @@ namespace BLL
         private IClassContext fakeContext;
         private bool _realDBAccess;
 
-        public BLLClass(bool realDBAccess)
+        public BLLClass(bool realDBAccess = true)
         {
             entities = new ExamPlanningSystemSDMEntities();
             fakeContext = new FakeClassContext();
@@ -22,19 +22,43 @@ namespace BLL
 
         public void addClass(Class _class)
         {
-            entities.Class.Add(_class);
-            //if (_realDBAccess)
-            //    SaveChangesToDB();
+            if (_realDBAccess)
+                addClassReal(_class);
+            else
+                addClassFake(_class);
         }
 
         public Class getClass(int classID)
         {
+            if (_realDBAccess)
+                return getClassReal(classID);
+            else
+                return getClassFake(classID);
+        }
+
+
+
+        public void addClassReal(Class _class)
+        {
+            entities.Class.Add(_class);
+            entities.SaveChanges();
+        }
+
+        public void addClassFake(Class _class)
+        {
+            fakeContext.Class.Add(_class);
+            fakeContext.SaveChanges();
+        }
+
+        public Class getClassReal(int classID)
+        {
             return entities.Class.Single(c => c.ClassID == classID);
         }
 
-        //private void SaveChangesToDB()
-        //{
-        //    entities.SaveChanges();
-        //}
+        public Class getClassFake(int classID)
+        {
+            return fakeContext.Class.Single(c => c.ClassID == classID);
+        }
+
     }
 }

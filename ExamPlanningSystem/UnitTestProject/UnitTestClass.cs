@@ -11,12 +11,14 @@ namespace UnitTestProject
     {
         private BLLClass mockBLLClass;
         private Class mockClass;
+        private MockRepository mock;
 
         [TestInitialize]
         public void Initialize()
         {
-            mockBLLClass = MockRepository.GenerateMock<BLLClass>(true);
-            mockClass = MockRepository.GenerateMock<Class>();
+            mock = new MockRepository();
+            mockBLLClass = mock.StrictMock<BLLClass>(false);
+            mockClass = mock.StrictMock<Class>();
 
         }
 
@@ -34,9 +36,9 @@ namespace UnitTestProject
             mockClass.ClassID = 1;
 
             mockBLLClass.addClass(mockClass);
-
-            Assert.AreEqual(1, mockBLLClass.getClass(mockClass.ClassID));
-            Assert.AreEqual("CS2011", mockBLLClass.getClass(mockClass.ClassID));
+            
+            Assert.AreEqual(1, mockBLLClass.getClass(mockClass.ClassID).ClassID);
+            Assert.AreEqual("CS2011", mockBLLClass.getClass(mockClass.ClassID).ClassName);
         }
     }
 }
