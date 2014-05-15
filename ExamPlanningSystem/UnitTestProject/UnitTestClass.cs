@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Rhino.Mocks;
 using BLL;
+using BE;
 
 namespace UnitTestProject
 {

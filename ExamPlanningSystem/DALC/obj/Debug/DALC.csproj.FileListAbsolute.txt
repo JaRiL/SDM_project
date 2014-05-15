@@ -8,3 +8,5 @@ C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\E
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.xml
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\BE.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\DALC\bin\Debug\BE.pdb

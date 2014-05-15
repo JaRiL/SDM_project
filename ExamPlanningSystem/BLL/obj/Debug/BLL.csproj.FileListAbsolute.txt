@@ -10,3 +10,5 @@ C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BLL\bin\Debug\En
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BLL\bin\Debug\BLL.dll.config
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BLL\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BLL\bin\Debug\BE.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BLL\bin\Debug\BE.pdb
