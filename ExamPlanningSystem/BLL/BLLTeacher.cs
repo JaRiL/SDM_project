@@ -9,11 +9,11 @@ namespace BLL
 {
     public class BLLTeacher
     {
-        private ExamPlanningSystemSDMEntities entities;
+        //private ExamPlanningSystemSDMEntities entities;
 
         public BLLTeacher()
         {
-            entities = new ExamPlanningSystemSDMEntities();
+            //entities = new ExamPlanningSystemSDMEntities();
         }
 
         public void addTeacher()

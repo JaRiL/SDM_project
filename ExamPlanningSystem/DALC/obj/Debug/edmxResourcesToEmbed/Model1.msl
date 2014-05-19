@@ -1,12 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-  <EntityContainerMapping StorageEntityContainer="ExamPlanningSystemSDMModelStoreContainer" CdmEntityContainer="ExamPlanningSystemSDMEntities">
+  <EntityContainerMapping StorageEntityContainer="ExamPlanningSystemSDMModelStoreContainer" CdmEntityContainer="ExamPlanningSystemSDMEntities1">
+    <EntitySetMapping Name="Censor">
+      <EntityTypeMapping TypeName="ExamPlanningSystemSDMModel.Censor">
+        <MappingFragment StoreEntitySet="Censor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
     <EntitySetMapping Name="Class">
       <EntityTypeMapping TypeName="ExamPlanningSystemSDMModel.Class">
         <MappingFragment StoreEntitySet="Class">
           <ScalarProperty Name="ClassID" ColumnName="ClassID" />
           <ScalarProperty Name="ClassName" ColumnName="ClassName" />
           <ScalarProperty Name="RoomID" ColumnName="RoomID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teachers">
+      <EntityTypeMapping TypeName="ExamPlanningSystemSDMModel.Teachers">
+        <MappingFragment StoreEntitySet="Teachers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

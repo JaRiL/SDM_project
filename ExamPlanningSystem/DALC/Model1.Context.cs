@@ -9,15 +9,15 @@
 
 namespace DALC
 {
-    using BE;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
+    using BE;
     
-    public partial class ExamPlanningSystemSDMEntities : DbContext
+    public partial class ExamPlanningSystemSDMEntities1 : DbContext
     {
-        public ExamPlanningSystemSDMEntities()
-            : base("name=ExamPlanningSystemSDMEntities")
+        public ExamPlanningSystemSDMEntities1()
+            : base("name=ExamPlanningSystemSDMEntities1")
         {
         }
     
@@ -26,6 +26,8 @@ namespace DALC
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<Censor> Censor { get; set; }
         public virtual DbSet<Class> Class { get; set; }
+        public virtual DbSet<Teachers> Teachers { get; set; }
     }
 }
