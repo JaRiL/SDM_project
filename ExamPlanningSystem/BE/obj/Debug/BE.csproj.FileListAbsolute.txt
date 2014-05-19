@@ -1,0 +1,9 @@
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\BE.dll.config
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\BE.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\BE.pdb
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\EntityFramework.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\EntityFramework.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\obj\Debug\BE.dll
+C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\BE\obj\Debug\BE.pdb
