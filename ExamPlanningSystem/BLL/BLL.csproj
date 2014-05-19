@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL.cs" />
     <Compile Include="BLLCensor.cs" />
     <Compile Include="BLLClass.cs" />
     <Compile Include="BLLTeacher.cs" />
