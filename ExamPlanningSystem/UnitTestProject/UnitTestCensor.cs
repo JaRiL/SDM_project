@@ -4,32 +4,87 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BLL;
+using BE;
+using Rhino.Mocks;
 
 namespace UnitTestProject
 {
-      [TestClass]
+    [TestClass]
     class UnitTestCensor
     {
-             [TestMethod]
-                public void addBookingOfCensorTest()
+        private BLLCensor mockBLLTeacher;
+        private Censor mockCensor;
+        private MockRepository mock;
+
+        [TestInitialize]
+        public void Initialize()
         {
+            mock = new MockRepository();
+            mockBLLTeacher = mock.StrictMock<BLLCensor>(false);
+            mockCensor = mock.StrictMock<Censor>();
+        }
+
+        [TestCleanup]
+        public void TearDown()
+        {
+            mockBLLTeacher = null;
+            mockCensor = null;
+        }
+
+        [TestMethod]
+        public void addCensorIDTest()
+        {
+            mockCensor.Id = 1;
+
+            mockBLLTeacher.addCensor(mockCensor);
+
+            Assert.AreEqual(1, mockBLLTeacher.getCensor(mockCensor.Id).Id);
+        }
+
+        [TestMethod]
+        public void addFirstNameTest()
+        {
+            mockCensor.Id = 1;
+            mockCensor.FirstName = "MyCensor";
+
+            mockBLLTeacher.addCensor(mockCensor);
+
+            Assert.AreEqual("MyCensor", mockBLLTeacher.getCensor(mockCensor.Id).FirstName);
+        }
+
+        [TestMethod]
+        public void addLastNameTest()
+        {
+            mockCensor.Id = 1;
+            mockCensor.LastName = "MyCensorLastName";
+
+            mockBLLTeacher.addCensor(mockCensor);
+
+            Assert.AreEqual("MyCensorLastName", mockBLLTeacher.getCensor(mockCensor.Id).LastName);
+        }
 
 
-            //m_beCensorMock = new m_beCensorMock();
+        [TestMethod]
+        public void addEmailTest()
+        {
+            mockCensor.Id = 1;
+            mockCensor.Email = "test@test.dk";
 
-            
-            //m_beCensorMock.("Lars");
-            //m_Censor.setCensorID(1);
-            //m_Censor.setCensorLastName("Hansen");
-            //m_Censor.setCensorEmail("LHansen@ymail.com");
-            //m_Censor.setCensorPhone("57 86 49 31");
-            //m_bllCensor.addNewCensor(m_Censor);
+            mockBLLTeacher.addCensor(mockCensor);
 
-            //Assert.AreEqual("Lars", m_Censor.getCensorName());
-            //Assert.AreEqual("Hansen", m_Censor.getCensorLastName());
-            //Assert.AreEqual("LHansen@ymail.com", m_Censor.getCensorEmail());
-            //Assert.AreEqual("57 86 49 31", m_Censor.getCensorPhone());
-        
+            Assert.AreEqual("test@test.dk", mockBLLTeacher.getCensor(mockCensor.Id).Email);
+        }
+
+        [TestMethod]
+        public void addPhoneNumberTest()
+        {
+            mockCensor.Id = 1;
+            mockCensor.PhoneNumber = "88 88 88 88";
+
+            mockBLLTeacher.addCensor(mockCensor);
+
+            Assert.AreEqual("88 88 88 88", mockBLLTeacher.getCensor(mockCensor.Id).PhoneNumber);
         }
     }
 }

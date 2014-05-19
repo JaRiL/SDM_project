@@ -12,4 +12,14 @@ namespace DALC
     {
         public IDbSet<Class> Class { get; set; }
     }
+    public class CensorContext : DbContext, ICensorContext
+    {
+        public IDbSet<Censor> Censor { get; set; }
+    }
+
+    public class TeacherContext : DbContext, ITeacherContext
+    {
+        public IDbSet<Teachers> Teacher { get; set; }
+    }
+
 }

@@ -19,7 +19,6 @@ namespace UnitTestProject
             mock = new MockRepository();
             mockBLLClass = mock.StrictMock<BLLClass>(false);
             mockClass = mock.StrictMock<Class>();
-
         }
 
         [TestCleanup]
@@ -30,14 +29,22 @@ namespace UnitTestProject
         }
 
         [TestMethod]
-        public void addBookingOfClassTest()
+        public void addClassIDTest()
         {
-            mockClass.ClassName = "CS2011";
             mockClass.ClassID = 1;
 
             mockBLLClass.addClass(mockClass);
             
             Assert.AreEqual(1, mockBLLClass.getClass(mockClass.ClassID).ClassID);
+        }
+
+        [TestMethod]
+        public void addClassNameTest()
+        {
+            mockClass.ClassName = "CS2011";
+
+            mockBLLClass.addClass(mockClass);
+
             Assert.AreEqual("CS2011", mockBLLClass.getClass(mockClass.ClassID).ClassName);
         }
     }

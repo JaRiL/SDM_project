@@ -48,9 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FakeClassContext.cs" />
+    <Compile Include="FakeBEContext.cs" />
     <Compile Include="FakeDbSet.cs" />
-    <Compile Include="IClassContext.cs" />
+    <Compile Include="IBEContext.cs" />
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -67,7 +67,7 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ClassContext.cs" />
+    <Compile Include="BEContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

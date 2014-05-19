@@ -38,24 +38,24 @@ namespace BLL
 
 
 
-        public void addClassReal(Class _class)
+        private void addClassReal(Class _class)
         {
             entities.Class.Add(_class);
             entities.SaveChanges();
         }
 
-        public void addClassFake(Class _class)
+        private void addClassFake(Class _class)
         {
             fakeContext.Class.Add(_class);
             fakeContext.SaveChanges();
         }
 
-        public Class getClassReal(int classID)
+        private Class getClassReal(int classID)
         {
             return entities.Class.Single(c => c.ClassID == classID);
         }
 
-        public Class getClassFake(int classID)
+        private Class getClassFake(int classID)
         {
             return fakeContext.Class.Single(c => c.ClassID == classID);
         }

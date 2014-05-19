@@ -14,4 +14,18 @@ namespace DALC
 
         int SaveChanges();
     }
+
+    public interface ITeacherContext
+    {
+        IDbSet<Teachers> Teacher { get; }
+
+        int SaveChanges();
+    }
+
+    public interface ICensorContext
+    {
+        IDbSet<Censor> Censor { get; }
+
+        int SaveChanges();
+    }
 }
