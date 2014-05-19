@@ -10,3 +10,6 @@ C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSyst
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.pdb
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\BE.dll
 C:\Users\Kasper\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\BE.pdb
+C:\Users\Jari\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\bin\Debug\ExamPlanningSystem.exe.config
+C:\Users\Jari\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.exe
+C:\Users\Jari\Documents\GitHub\SDM_project\ExamPlanningSystem\ExamPlanningSystem\obj\Debug\ExamPlanningSystem.pdb
